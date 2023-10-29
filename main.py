@@ -1,17 +1,14 @@
-from arboles import arbol_binario
+from arboles import arbol_rojonegro
 
 if __name__=='__main__':
-    mi_arbol = arbol_binario()
+    mi_arbol = arbol_rojonegro()
 
-    mi_arbol.agregar_elemento('E')
+    mi_arbol.agregar_elemento(1)
     
-    mi_arbol.agregar_elemento('B')
-    mi_arbol.agregar_elemento('C')
-    mi_arbol.agregar_elemento('D')
-    mi_arbol.agregar_elemento('A')
-    mi_arbol.agregar_elemento('E')
-    mi_arbol.agregar_elemento('F')
-    mi_arbol.agregar_elemento('G')
+    mi_arbol.agregar_elemento(2)
+    mi_arbol.agregar_elemento(3)
+    mi_arbol.agregar_elemento(4)
+    mi_arbol.agregar_elemento(5)
 
 
     mi_arbol.pintar_arbol()
