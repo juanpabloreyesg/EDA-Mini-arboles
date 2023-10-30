@@ -155,7 +155,7 @@ class arbol_rojonegro:
             nodo.hijo_izquierdo = self.__insertar_elemento(nodo.hijo_izquierdo, elemento)
         else:
             nodo.hijo_derecho = self.__insertar_elemento(nodo.hijo_derecho, elemento)
-        nodo = self.__balancear(nodo)
+        #nodo = self.__balancear(nodo)
         return nodo
 
     def __str__(self):
